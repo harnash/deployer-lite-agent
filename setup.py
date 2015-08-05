@@ -9,10 +9,10 @@ with open(os.path.join(here, 'README.md'), 'rb') as f:
     long_description = f.read().decode('utf-8')
 
 setup(
-    name='deployer_lite',
+    name='deployer-lite-agent',
     version='0.0.1',
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
-    url='https://github.com/harnash/deployer-lite',
+    url='https://github.com/harnash/deployer-lite-agent',
     license='Apache 2.0',
     author='Łukasz Harasimowicz',
     author_email='dev@harnash.eu',
@@ -39,7 +39,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'deployer-server = server.commands:register',
+            # 'deployer-agent = commands:register',
         ],
     },
     tests_require=[
