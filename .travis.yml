@@ -10,6 +10,6 @@ install:
   - pip install -e .
   - pip install coveralls
 # command to run tests
-script: nosetests --with-coverage --cover-min-percentage=85
+script: nosetests --with-coverage --cover-package=agent --cover-min-percentage=85
 after_success:
   - coveralls
