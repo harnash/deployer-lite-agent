@@ -5,6 +5,9 @@ python:
   - "3.3"
   - "3.4"
 cache: pip
+cache:
+  directories:
+    - $HOME/.cache/pip
 # command to install dependencies
 install:
   - pip install -e .
