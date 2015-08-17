@@ -48,6 +48,6 @@ setup(
     ],
     install_requires=[
         'pyzmq==14.7.0',
-        'click==4.1',
+        'click==5.1',
     ]
 )
