@@ -39,7 +39,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            # 'deployer-agent = commands:register',
+            'deployer-agent = agent.commands:register',
         ],
     },
     tests_require=[
